@@ -1,0 +1,15 @@
+
+is_debug: true
+listen:
+  type: port
+  bind_ip: 0.0.0.0
+  port: ${PORT}
+
+mongodb:
+  host: ${DB_HOST}
+  port: ${DB_PORT}
+  database: user_db
+  auth_db: admin
+  username: ${DB_USERNAME}
+  password: ${DB_PASSWORD}
+  collection: users
